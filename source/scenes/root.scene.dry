@@ -540,7 +540,7 @@ Q.muller_advisor = 1; // Hermann Müller
 Q.muller_dead = 0;
 // okay I know Arthur Crispien was a leader irl but i couldn't find much interesting about him...
 Q.crispien_advisor = 0; // Arthur Crispien
-Q.hilferding_advisor = 1; // Rudolf Hilferding
+Q.hilferding_advisor = 0; // Rudolf Hilferding
 
 // left advisors
 Q.sender_advisor = 0; // Toni Sender
@@ -558,6 +558,7 @@ Q.severing_advisor = 0; // Carl Severing
 Q.braun_advisor = 0; // Otto Braun
 Q.juchacz_advisor = 0; // Marie Juchacz
 Q.baade_advisor = 0; // Fritz Baade
+Q.schwenke_advisor = 1; // Felix Schwenke
 
 // Labor advisors
 Q.leipart_advisor = 0; // Theodor Leipart
