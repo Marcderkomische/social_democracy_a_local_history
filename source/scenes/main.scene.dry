@@ -47,15 +47,15 @@ max-cards: 4
 
 @party
 title: Party Affairs
-card-image: img/Vorwaerts_nr_1.png
+card-image: https://www.spd-offenbach.de/files_spd_of/spd-offenbach-gruppenbild_5.jpg
 is-deck: true
 
 - #party_affairs
 
 @govt
-title: Government Affairs
+title: City Council Affairs
 view-if: time >= 6
-card-image: img/reichstag_2.jpg
+card-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR7oaYf1cYlA05bS_8Ogz1m7SawnabZxF0DQ&s
 is-deck: true
 
 - #govt_affairs
