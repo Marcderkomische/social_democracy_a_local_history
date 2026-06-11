@@ -3,7 +3,7 @@ new-page: true
 is-card: true
 view-if: spd_prussia = 1 and hessian_affairs_timer <= 0
 on-arrival: hessian_affairs_timer += 6; month_actions += 1
-tags: bund_affairs
+tags: hessian_affairs
 card-image: https://wahlen.hessen.de/sites/wahlen.hessen.de/files/styles/og_image/public/2022-02/hei_2707.jpg?itok=TyFCiUX5
 #subtitle: The state government of Prussia is a bulwark of democracy...
 
