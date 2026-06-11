@@ -1,5 +1,5 @@
 title: Next month
-set-bg: img/map_2.jpg
+set-bg: https://www.hessenschau.de/wirtschaft/offenbach-luft-100~_t-1744374486768_v-1to1__xlarge.jpg
 is-hand: true
 on-arrival: {!
 if (Q.advisor_action_timer <= 0) {
@@ -23,7 +23,7 @@ max-cards: 3
 - @shuffle_leadership_pinned
 
 @main_easy
-set-bg: img/map_2.jpg
+set-bg: https://www.hessenschau.de/wirtschaft/offenbach-luft-100~_t-1744374486768_v-1to1__xlarge.jpg
 is-hand: true
 on-arrival: {!
 if (Q.advisor_action_timer <= 0) {
