@@ -630,10 +630,10 @@ audio: shuffle music/1928_1930/FruhlingsliedMendelssohn.mp3 music/1928_1930/AUF_
 new-page: true
 go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
-= 2015
+= 2014
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+It is a middling time for Offenbachian Democracy. The effects of the German *Strukturwandel* in the 70's are still noticable, the local economy is stagnating, and the city belongs to the poorest communities in all of Germany. Still, the last local elections have shown us a clear mandate, and our <span style="color: #FFAC1C ;">co</span><span style="color: #00A316 ;">ul</span><span style="color: #990B0B ;">or</span> Coalition stands to gain.
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+Perhaps the next Council Election will make the <span style="color: #990B0B ;">social democrats</span> the largest party.
 
 
