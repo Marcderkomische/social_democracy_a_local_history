@@ -49,7 +49,7 @@ max-cards: 4
 
 @party
 title: Party Affairs
-card-image: https://www.spd-offenbach.de/files_spd_of/spd-offenbach-gruppenbild_5.jpg
+card-image: https://www.spd-offenbach.de/files_spd_of/fraktion-logo_7.jpg
 is-deck: true
 
 - #party_affairs
@@ -63,8 +63,8 @@ is-deck: true
 - #govt_affairs
 
 @hesse
-title: Hessian State Affairs
-card-image: https://wahlen.hessen.de/sites/wahlen.hessen.de/files/styles/og_image/public/2022-02/hei_2707.jpg?itok=TyFCiUX5
+title: Hessian State and Bund Affairs
+card-image: https://upload.wikimedia.org/wikipedia/commons/5/57/Wappen_Volksstaat_Hessen.png
 is-deck: true
 
 - #hessian_affairs
