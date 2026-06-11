@@ -64,7 +64,6 @@ is-deck: true
 
 @hesse
 title: Hessian State Affairs
-view-if: time >= 6
 card-image: https://wahlen.hessen.de/sites/wahlen.hessen.de/files/styles/og_image/public/2022-02/hei_2707.jpg?itok=TyFCiUX5
 is-deck: true
 
