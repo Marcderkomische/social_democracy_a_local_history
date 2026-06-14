@@ -9,36 +9,34 @@ max-visits: 1
 
 Offenbach is a City with a limited Budget, and as such we have to ask ourselves rather unpleasent questions about our services. Where would our pencils of doom do the least amount of damage?
 
-- @ban_march: Stop renovations of schools and block plans for other ones.
-- @allow_police: Allow the march, with a heavy police presence.
-- @allow_no_police: Allow the march without a police presence.
+- @ban_march: Stop renovations of schools and daycare centres.
+- @stop_servants: Stop the hiring of new civil servants
+- @busstops: Cut some buslines and try to optimise the remaining ones for less maintenance costs.
+- @buisness_tax_increase: Increase the buisness tax of our city
 
 @ban_march
 choose-if: judicial_reform >= 2
 subtitle: Fuck them kids
-unavailable-subtitle: Improving schools is our focus for this term and source of some of our most noticable achievements.
+unavailable-subtitle: +2 Budget. Improving schools is our focus for this term and source of some of our most noticable achievements. Daycare expansion is the priority of our <span style="color: #50C878 ;">green</span> Mayor.
 on-arrival: sa_strength -= 10
 
 We have banned the planned protest. The Nazis appeal the ban in the courts in the name of freedom of speech. Thankfully, the judiciary agrees with us that the Nazis' argument is specious.
 
 
-@allow_police
-go-to: allow_police_violence if prussian_police_loyalty <= 0.75; allow_police_no_violence if prussian_police_loyalty > 0.75 
-
-@allow_police_violence
-on-arrival: strife += 1; sa_strength += 50; kpd_relation -= 8; communist_coalition -= 1
-
-When the march arrives in Altona, they are immediately confronted by an angry crowd of communists and socialists, who throw objects at the Nazis. The police attempt to separate the two groups, to no avail. Gunshots are heard, reportedly from rooftop snipers (whom the police believe are communists). In response, the police fire into the surrounding buildings. Dozens are killed. All turn out to be civilians, and the reported snipers are never found.
-
-This incident has been called "Altona Bloody Sunday" in the media. The Communists assail the incompetence of the police, who are supposedly under our command.
-
-@allow_police_no_violence
-on-arrival: sa_strength += 10
-
-When the march arrives in Altona, they are immediately confronted by an angry crowd of communists and socialists, who throw objects at the Nazis. The police attempt to separate the two groups, to no avail. Gunshots are heard, reportedly from rooftop snipers. The police manage to keep their cool, the shots stop, and the march disperses without further violence.
+@stop_servants
+subtitle: +1 Budget. Administrative work processes slow down and our citizens experience worse bureaucratic city services with longer wait times. Our digitalisation efforts have lessened the Impact.
+on-arrival: sa_strength += 80; rfb_strength += 50; strife += 1; kpd_relation -= 8; communist_coalition -= 1
 
 
-@allow_no_police
+@busstops
+subtitle: +1 Budget. Our <span style="color: #50C878 ;">green</span> Partners are suprisignly willing to comprimise.
 on-arrival: sa_strength += 80; rfb_strength += 50; strife += 1; kpd_relation -= 8; communist_coalition -= 1
 
 When the march arrives in Altona, they are immediately confronted by an angry crowd of communists and socialists, who throw objects at the Nazis. Gunshots are heard, reportedly from rooftop snipers. In response, the SA engage the surrounding crowd and fire at the surrounding buildings. Dozens are killed, mostly civilians. The Nazis recruit off their dead martyrs.
+
+
+@buisness_tax_increase
+choose-if: judicial_reform >= 2
+subtitle: Fuck them buisnesses
+unavailable-subtitle: +2 Budget and ~1-3 Budget per year. Lord Mayor <span style="color: #990B0B ;">Schwenke</span> would never allow this.
+on-arrival: sa_strength -= 10
