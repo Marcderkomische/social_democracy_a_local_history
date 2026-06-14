@@ -1,21 +1,22 @@
 title: Fiscal Cuts
 new-page: true
-subtitle: We have to make a balanced Budget somehow...
+subtitle: We have to make a passable Budget somehow...
 tags: event
 view-if: year == 2014 and month == 3
 max-visits: 1
 
-= Fiscal Focus
+= Fiscal Cuts
 
 Offenbach is a City with a limited Budget, and as such we have to ask ourselves rather unpleasent questions about our services. Where would our pencils of doom do the least amount of damage?
 
-- @ban_march: Ban the march before it starts.
+- @ban_march: Stop renovations of schools and block plans for other ones.
 - @allow_police: Allow the march, with a heavy police presence.
 - @allow_no_police: Allow the march without a police presence.
 
 @ban_march
 choose-if: judicial_reform >= 2
-unavailable-subtitle: The judiciary would not allow us to ban the protest, because of free speech.
+subtitle: Fuck them kids
+unavailable-subtitle: Improving schools is our focus for this term and source of some of our most noticable achievements.
 on-arrival: sa_strength -= 10
 
 We have banned the planned protest. The Nazis appeal the ban in the courts in the name of freedom of speech. Thankfully, the judiciary agrees with us that the Nazis' argument is specious.
