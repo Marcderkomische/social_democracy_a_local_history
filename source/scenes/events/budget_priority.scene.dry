@@ -1,13 +1,13 @@
-title: Fiscal Focus
+title: Fiscal Cuts
 new-page: true
-subtitle: What is our priority for the remainder of the therm?
+subtitle: We have to make a balanced Budget somehow...
 tags: event
 view-if: year == 2014 and month == 3
 max-visits: 1
 
 = Fiscal Focus
 
-The Nazi SA is planning a march through Altona, a working-class neighborhood of Hamburg known for its high working-class population. Altona is a Communist stronghold, and the planned march will almost certainly lead to violent conflict.
+Offenbach is a City with a limited Budget, and as such we have to ask ourselves rather unpleasent questions about our services. Where would our pencils of doom do the least amount of damage?
 
 - @ban_march: Ban the march before it starts.
 - @allow_police: Allow the march, with a heavy police presence.
