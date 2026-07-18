@@ -81,6 +81,11 @@ go-to: popular_front_achievement if in_popular_front; united_front_achievement i
 
 I mean yeah that worked lol
 
+@linke_vote_of_no_confidence.let_it_happen: Let the vote happen.
+on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers_linke += 5; linke_coalition_success += 1
+
+sadge
+
 
 @goals_success
 on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers_linke += 5; linke_coalition_success += 1
