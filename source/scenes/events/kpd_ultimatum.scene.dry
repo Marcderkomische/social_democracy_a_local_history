@@ -75,6 +75,12 @@ on-arrival: linke_ultimatum_seen = 0; linke_ultimatum_timer += 6; linke_appeal_s
 
 We argue that we are working hard to achieve the coalition's goals, and in the name of proletarian solidarity, we must make this coalition function. Surprisingly, the KPD hears our pleas, and is willing to give us six more months before the coalition goals must be achieved.
 
+@linke_vote_of_no_confidence.support_center
+on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers_linke += 5; linke_coalition_success += 1
+go-to: popular_front_achievement if in_popular_front; united_front_achievement if in_left_front
+
+I mean yeah that worked lol
+
 
 @goals_success
 on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers_linke += 5; linke_coalition_success += 1
