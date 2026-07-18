@@ -65,7 +65,6 @@ Unfortunately, we have failed to accomplish all of the goals the KPD set out. Th
 
 - @appeal: Appeal to the Communists to have patience - we are trying!
 - @linke_vote_of_no_confidence.support_center: Could we form a new government based on the Center Party and [+ greens_name +] (and possibly DVP)?
-- @linke_vote_of_no_confidence.let_it_happen: Let the vote happen.
 - @no_vonc: They cannot call a vote of no confidence due to the constitutional reforms, but they can obstruct our government at every opportunity.
 
 @appeal
@@ -80,11 +79,6 @@ on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers
 go-to: popular_front_achievement if in_popular_front; united_front_achievement if in_left_front
 
 I mean yeah that worked lol
-
-@linke_vote_of_no_confidence.let_it_happen: Let the vote happen.
-on-arrival: workers_spd += 8; unemployed_spd += 8; linke_relation += 10; workers_linke += 5; linke_coalition_success += 1
-
-sadge
 
 
 @goals_success
