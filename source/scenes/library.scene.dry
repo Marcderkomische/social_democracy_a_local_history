@@ -44,7 +44,7 @@ go-to: menu
 
 **1918**: Following defeats in the war and uprisings by soldiers, sailors, and workers, SPD leader Philip Scheidemann proclaims the German Republic, and Kaiser Wilhelm II abdicates from his throne. An armistice is declared, ending the Great War. Conflict between center-left social democrats and far-left radicals erupts in the streets of Berlin and elsewhere.
 
-**1919**: The Spartacist Uprising, in which communist workers attempt to seize control of government, is launched. The uprising is defeated by the Social Democratic government, now led by President Friedrich Ebert and Chancellor Philipp Scheidemann, with the support of the far-right Freikorps militias. The two key leaders of the uprising, Rosa Luxemburg and Karl Liebknecht, are murdered by the Freikorps. The Treaty of Versailles is signed under great protest from all political factions in Germany, officially ending the Great War. The Weimar Constitution is signed. The first "Weimar Coalition" government is formed, led by the SPD, DDP, and Center (Z) parties.
+**1919**: The Spartacist Uprising, in which communist workers attempt to seize control of government, is launched. The uprising is defeated by the Social Democratic government, now led by President Friedrich Ebert and Chancellor Philipp Scheidemann, with the support of the far-right Freikorps militias. The two key leaders of the uprising, Rosa Luxemburg and Karl Liebknecht, are murdered by the Freikorps. The Treaty of Versailles is signed under great protest from all political factions in Germany, officially ending the Great War. The Weimar Constitution is signed. The first "Weimar Coalition" government is formed, led by the SPD, DDP, and Center (CDU) parties.
 
 **1920**: The Kapp Putsch, an attempt by reactionary actors within the military to take power, is launched, and is defeated by the workers with a general strike. This is followed by left-wing uprisings in the Ruhr, which are defeated by the Reichswehr and Freikorps. The Weimar Coalition is defeated in the elections, with the right and far left increasing in vote share. Elected governments in this period are very unstable, often only lasting a matter of months. There is a split in the USPD, with the majority faction joining with the KPD and the Soviet Union's Communist International (Comintern) alliance.
 
@@ -75,7 +75,7 @@ Reichstag composition:
 SPD: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ cdu_r +]%
+CDU + BVP: [+ cdu_r +]%
 # 1928: 10, 1930: 13
 KPD: [+ linke_r +]%
 # 1928: 5, 1930: 4 (as DstP)
@@ -167,7 +167,7 @@ SPD: [+ spd_votes +]%
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
 # 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ cdu_votes +]%
+CDU + BVP: [+ cdu_votes +]%
 
 # 1928: 10, 1930: 13
 KPD: [+ linke_votes +]%
@@ -189,24 +189,24 @@ Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_cdu_display +]%, KPD: [+ workers_linke_display +]%, [+ greens_name +]: [+ workers_greens_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Workers: SPD: [+ workers_spd_display +]%, CDU: [+ workers_cdu_display +]%, KPD: [+ workers_linke_display +]%, [+ greens_name +]: [+ workers_greens_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_cdu_display +]%, KPD: [+ new_middle_linke_e_display +]%, [+ greens_name +]: [+ new_middle_greens_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+New Middle Class: SPD: [+ new_middle_spd_display +]%, CDU: [+ new_middle_cdu_display +]%, KPD: [+ new_middle_linke_e_display +]%, [+ greens_name +]: [+ new_middle_greens_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_cdu_display +]%, KPD: [+ old_middle_linke_display +]%, [+ greens_name +]: [+ old_middle_greens_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Old Middle Class: SPD: [+ old_middle_spd_display +]%, CDU: [+ old_middle_cdu_display +]%, KPD: [+ old_middle_linke_display +]%, [+ greens_name +]: [+ old_middle_greens_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_cdu_display +]%, KPD: [+ rural_linke_display +]%, [+ greens_name +]: [+ rural_greens_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Rural: SPD: [+ rural_spd_display +]%, CDU: [+ rural_cdu_display +]%, KPD: [+ rural_linke_display +]%, [+ greens_name +]: [+ rural_greens_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_cdu_display +]%, KPD: [+ unemployed_linke_display +]%, [+ greens_name +]: [+ unemployed_greens_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Unemployed: SPD: [+ unemployed_spd_display +]%, CDU: [+ unemployed_cdu_display +]%, KPD: [+ unemployed_linke_display +]%, [+ greens_name +]: [+ unemployed_greens_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_cdu_display +]%, KPD: [+ catholics_linke_display +]%, [+ greens_name +]: [+ catholics_greens_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Catholics: SPD: [+ catholics_spd_display +]%, CDU: [+ catholics_cdu_display +]%, KPD: [+ catholics_linke_display +]%, [+ greens_name +]: [+ catholics_greens_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 @parties
 go-to: menu
 
 **SPD** - *Sozialdemokratische Partei Deutschlands* (Social Democratic Party of Germany) - this is us. We are a socialist and democratic party of the working class. We are the heirs of the legacy of Marx and Engels, Lassalle and Bebel. We are the foremost defenders of the Republic. The modern SPD was formed from a merger of the "Majority" SPD, which supported the Great War, and the "Independent" SPD or USPD, which opposed the war.
 
-**Z** - *Zentrumspartei* (Center Party) - a centrist to center-right Catholic party that supports the Republic, and has historically supported many of our labor, welfare, and anti-militarist priorities. They have often been in coalitions with us. They are often associated with the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
+**CDU** - *CDUentrumspartei* (Center Party) - a centrist to center-right Catholic party that supports the Republic, and has historically supported many of our labor, welfare, and anti-militarist priorities. They have often been in coalitions with us. They are often associated with the **BVP** (Bavarian People's Party), which represents Catholics in Bavaria. [? if year >= 1930 or chancellor = "Brüning" : They have appeared to take a more conservative turn recently, with the rise of Brüning and the party leader, Ludwig Kaas. ?]
 
 Current relations: [+ cdu_relation : relationships +]
 
@@ -245,7 +245,7 @@ go-to: menu
 
 **Paramilitary groups:**
 
-**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, Z, and DDP, but primarily with the SPD. Historically, this has been an unarmed organization.
+**Reichsbanner Schwarz-Rot-Gold**: The Reichsbanner is an organization affiliated with all of the democratic parties - the SPD, CDU, and DDP, but primarily with the SPD. Historically, this has been an unarmed organization.
 
 Strength: [+ rb_strength +] thousand
 
@@ -421,7 +421,7 @@ if (d3 && window) {
     var lines = d3.linegraph(false, false,
             Q.parties,
             {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'sapd': '#c40000'},
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.greens_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD'});
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.greens_name, 'z': 'CDU + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD'});
     lines.width(width).height(400);
     //var svg = lines(Q.election_records);
     if (Q.election_records.length > 0) {
@@ -434,7 +434,7 @@ if (d3 && window) {
         var lines_2 = d3.linegraph(true, true,
             Q.parties,
             {'spd': '#E3000F', 'kpd': '#8B0000', 'ddp': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0', 'sapd': '#c40000'},
-            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.greens_name, 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD'});
+            {'spd': 'SPD', 'kpd': 'KPD', 'ddp': Q.greens_name, 'z': 'CDU + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others', 'sapd': 'SAPD'});
         lines_2.width(width).height(400);
         d3.select("#party_support_history").datum(Q.party_support_records).call(lines_2);
     }
@@ -464,7 +464,7 @@ if (d3 && window) {
 
 {!<tr><td><div class="box" style='background-color:#DCCA4A'> </div></td><td>!} [+ greens_name +]: {!</td><td>!} [+ greens_r +]% {!</td></tr>!}
 
-{!<tr><td><div class="box" style='background-color:#000'> </div></td><td>!} Z: {!</td><td>!} [+ cdu_minus_bvp_r +]% {!</td></tr>!}
+{!<tr><td><div class="box" style='background-color:#000'> </div></td><td>!} CDU: {!</td><td>!} [+ cdu_minus_bvp_r +]% {!</td></tr>!}
 
 {!<tr><td><div class="box" style='background-color:#69A2BE'> </div></td><td>!} BVP: {!</td><td>!} 3% {!</td></tr>!}
 

@@ -287,7 +287,7 @@ The electoral system is essentially proportional, with the proportion of Reichst
 SPD: [+ spd_r +]
 
 # 1928: 15, 1930: 15, 1932: 
-Z + BVP: [+ cdu_r +]
+CDU + BVP: [+ cdu_r +]
 
 # 1928: 10, 1930: 13
 KPD: [+ linke_r +]
@@ -309,11 +309,11 @@ Other: [+ other_r +]
 
 **Potential coalitions:**
 
-Weimar Coalition (SPD + Z + DDP): [+ weimar_coalition +]
+Weimar Coalition (SPD + CDU + DDP): [+ weimar_coalition +]
 
-Grand Coalition (SPD + Z + BVP + DDP + DVP): [+ grand_coalition +]
+Grand Coalition (SPD + CDU + BVP + DDP + DVP): [+ grand_coalition +]
 
-Bourgeois Coalition (Z + BVP + DDP + DVP + Others): [+ bourgeois_coalition +]
+Bourgeois Coalition (CDU + BVP + DDP + DVP + Others): [+ bourgeois_coalition +]
 
-Right-wing Coalition (Z + BVP + DVP + Others + DNVP): [+ right_coalition +]
+Right-wing Coalition (CDU + BVP + DVP + Others + DNVP): [+ right_coalition +]
 

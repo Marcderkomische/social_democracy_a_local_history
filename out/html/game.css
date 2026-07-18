@@ -537,7 +537,7 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
+.seat.linke {
     fill: #8B0000;
 }
 .seat.spd {
@@ -545,10 +545,10 @@ table {
     stroke: var(--border-color);
     stroke-width: 1.5px;
 }
-.seat.ddp {
-    fill: #DCCA4A;
+.seat.greens {
+    fill: #10ca29;
 }
-.seat.z {
+.seat.cdu {
     fill: #000;
 }
 .seat.bvp {

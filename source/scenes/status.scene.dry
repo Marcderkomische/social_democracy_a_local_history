@@ -41,7 +41,7 @@ Council composition:
 {!<span class="tooltip-text" title="Social Democratic Party of Germany">SPD</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">Z + BVP</span>!}: [+ cdu_r +]%
+{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">CDU + BVP</span>!}: [+ cdu_r +]%
 # 1928: 10, 1930: 13
 {!<span class="tooltip-text" title="Communist Party of Germany">KPD</span>!}: [+ linke_r +]%
 # 1928: 5, 1930: 4 (as DstP)
@@ -76,7 +76,7 @@ Economic growth: [+ economic_growth_2 +]%
 = Inter-party Relations
 
 
-{!<span class="tooltip-text" title="Center Party">Z</span>!}: [+ cdu_relation : relationships +]
+{!<span class="tooltip-text" title="Center Party">CDU</span>!}: [+ cdu_relation : relationships +]
 
 {!<span class="tooltip-text" title="German Democratic Party">!}[? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]{!</span>!}: [+ greens_relation : relationships +]
 
@@ -162,7 +162,7 @@ SPD: [+ spd_votes +]%
 
 [? if sapd_formed: SAPD: [+ sapd_votes +]% ?]
 
-Z + BVP: [+ cdu_votes +]%
+CDU + BVP: [+ cdu_votes +]%
 
 KPD: [+ linke_votes +]%
 
@@ -178,16 +178,16 @@ Others: [+ other_votes +]%
 
 **Detailed results for each demographic**
 
-Workers: SPD: [+ workers_spd_display +]%, Z: [+ workers_cdu_display +]%, KPD: [+ workers_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ workers_greens_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
+Workers: SPD: [+ workers_spd_display +]%, CDU: [+ workers_cdu_display +]%, KPD: [+ workers_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ workers_greens_display +]%, DVP: [+ workers_dvp_display +]%; DNVP: [+ workers_dnvp_display +]%, NSDAP: [+ workers_nsdap_display +]%, Others: [+ workers_other_display +]% [? if sapd_formed: SAPD: [+ workers_sapd_display +]% ?]
 
-New Middle Class: SPD: [+ new_middle_spd_display +]%, Z: [+ new_middle_cdu_display +]%, KPD: [+ new_middle_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ new_middle_greens_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
+New Middle Class: SPD: [+ new_middle_spd_display +]%, CDU: [+ new_middle_cdu_display +]%, KPD: [+ new_middle_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ new_middle_greens_display +]%, DVP: [+ new_middle_dvp_display +]%; DNVP: [+ new_middle_dnvp_display +]%, NSDAP: [+ new_middle_nsdap_display +]%, Others: [+ new_middle_other_display +]% [? if sapd_formed: SAPD: [+ new_middle_sapd_display +]% ?]
 
-Old Middle Class: SPD: [+ old_middle_spd_display +]%, Z: [+ old_middle_cdu_display +]%, KPD: [+ old_middle_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ old_middle_greens_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
+Old Middle Class: SPD: [+ old_middle_spd_display +]%, CDU: [+ old_middle_cdu_display +]%, KPD: [+ old_middle_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ old_middle_greens_display +]%, DVP: [+ old_middle_dvp_display +]%; DNVP: [+ old_middle_dnvp_display +]%, NSDAP: [+ old_middle_nsdap_display +]%, Others: [+ old_middle_other_display +]% [? if sapd_formed: SAPD: [+ old_middle_sapd_display +]% ?]
 
-Rural: SPD: [+ rural_spd_display +]%, Z: [+ rural_cdu_display +]%, KPD: [+ rural_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ rural_greens_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
+Rural: SPD: [+ rural_spd_display +]%, CDU: [+ rural_cdu_display +]%, KPD: [+ rural_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ rural_greens_display +]%, DVP: [+ rural_dvp_display +]%; DNVP: [+ rural_dnvp_display +]%, NSDAP: [+ rural_nsdap_display +]%, Others: [+ rural_other_display +]% [? if sapd_formed: SAPD: [+ rural_sapd_display +]% ?]
 
-Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_cdu_display +]%, KPD: [+ unemployed_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ unemployed_greens_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
+Unemployed: SPD: [+ unemployed_spd_display +]%, CDU: [+ unemployed_cdu_display +]%, KPD: [+ unemployed_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ unemployed_greens_display +]%, DVP: [+ unemployed_dvp_display +]%; DNVP: [+ unemployed_dnvp_display +]%, NSDAP: [+ unemployed_nsdap_display +]%, Others: [+ unemployed_other_display +]% [? if sapd_formed: SAPD: [+ unemployed_sapd_display +]% ?]
 
-Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_cdu_display +]%, KPD: [+ catholics_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ catholics_greens_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
+Catholics: SPD: [+ catholics_spd_display +]%, CDU: [+ catholics_cdu_display +]%, KPD: [+ catholics_linke_display +]%, [? if not greens_name: DDP?][? if greens_name != 0 : [+ greens_name +]?]: [+ catholics_greens_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
