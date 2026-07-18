@@ -384,7 +384,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if game_achievement_anders_als_die_andern: **Anders als die Andern** - sexual minorities will defend the Republic. ?]
 
-[? if game_achievement_bruder_zur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
+[? if game_achievement_bruder_cduur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
 
 [? if game_achievement_die_rote_fahne: **Die Rote Fahne** - join the KPD in their May Day march. ?]
 
@@ -414,7 +414,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if game_achievement_verfassungsreform: **Verfassungsreform** - pass a constitutional amendment. ?]
 
-[? if game_achievement_zeppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
+[? if game_achievement_cdueppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
 
 [? if game_achievement_wahlrechts : **Wahlrechts für Frauen** - Marie Juchacz has been elected president. ?]
 
@@ -493,7 +493,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if achievement_anders_als_die_andern: **Anders als die Andern** - sexual minorities will defend the Republic. ?]
 
-[? if achievement_bruder_zur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
+[? if achievement_bruder_cduur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
 
 [? if achievement_die_rote_fahne: **Die Rote Fahne** - join the KPD in their May Day march. ?]
 
@@ -523,7 +523,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if achievement_verfassungsreform: **Verfassungsreform** - pass a constitutional amendment. ?]
 
-[? if achievement_zeppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
+[? if achievement_cdueppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
 
 [? if achievement_wahlrechts : **Wahlrechts für Frauen** - Marie Juchacz has been elected president. ?]
 
@@ -600,7 +600,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if not achievement_anders_als_die_andern: **Anders als die Andern** - sexual minorities will defend the Republic. ?]
 
-[? if not achievement_bruder_zur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
+[? if not achievement_bruder_cduur_sonne: **Brüder, zur Sonne, zur Freiheit** - reduce unemployment, pause reparations, increase women's rights, elect an SPD president, and deport Hitler in one playthrough on at least normal difficulty. ?]
 
 [? if not achievement_die_rote_fahne: **Die Rote Fahne** - join the KPD in their May Day march. ?]
 
@@ -630,7 +630,7 @@ go-to: eg_menu if started == 1; root.start_menu_2 if started == 0
 
 [? if not achievement_verfassungsreform: **Verfassungsreform** - pass a constitutional amendment. ?]
 
-[? if not achievement_zeppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
+[? if not achievement_cdueppelin_kapitan : **Zeppelinkapitän** - Hugo Eckener has been elected president. ?]
 
 [? if not achievement_wahlrechts : **Wahlrechts für Frauen** - Marie Juchacz has been elected president. ?]
 
