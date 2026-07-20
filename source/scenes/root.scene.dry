@@ -297,13 +297,13 @@ Q.catholics_other = 12;
 // since they were ideologically similar, but they were separate parties.
 // They did not have a CDU/CSU-style relationship.
 Q.spd_r = 26;
-Q.linke_r = 9;
-Q.cdu_r = 17;
-Q.greens_r = 6;
-Q.dvp_r = 10;
-Q.dnvp_r = 20;
+Q.linke_r = 5;
+Q.cdu_r = 31;
+Q.greens_r = 22;
+Q.dvp_r = 5;
+Q.dnvp_r = 2;
 Q.nsdap_r = 3;
-Q.other_r = 9;
+Q.other_r = 6;
 
 // diff from prev
 Q.old_spd_r = 26;
@@ -332,10 +332,10 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "Horst Schneider";
-Q.president_party = '<span style="color: #ff0000 ;">spd</span>';
+Q.president_party = '<span style="color: #ff0000 ;">SPD</span>';
 // starting chancellor: 
 Q.chancellor = "Peter Schneider";
-Q.chancellor_party = '<span style="color: #50C878 ;">greens</span>';
+Q.chancellor_party = '<span style="color: #50C878 ;">Greens</span>';
 Q.spd_in_government = 1;
 Q.cdu_in_government = 1;
 Q.greens_in_government = 1;
