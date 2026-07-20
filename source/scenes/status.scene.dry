@@ -31,9 +31,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-President: [+ president +]
+Lord-Mayor: [+ president +] ([+ president_party +])
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+Mayor: [+ chancellor +] ([+ chancellor_party +])
 
 Council composition:
 

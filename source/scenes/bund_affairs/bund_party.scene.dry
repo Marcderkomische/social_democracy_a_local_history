@@ -3,7 +3,7 @@ new-page: true
 on-arrival: month_actions += 1
 max-visits: 36
 is-card: true
-card-image: img/flags.jpg
+card-image: https://www.spd-hessen.de/wp-content/uploads/sites/269/2026/01/asset-13-2x-600x400.png
 frequency: 100
 tags: hessian_affairs
 
@@ -15,7 +15,7 @@ Whether we want it or not we have to work with (or help) our rather troubled col
 - @give_funds: Give the state party additional reccources as a gesture of good will.
 - @frankfurt_spd: Arrange meetings with our friends at Frankfurt and coordinate with them on certain cross-city projects.
 - @advice_negative_right: Push the state SPD into a more agressive tone and direction against the CDU.
-- @advice_negative_left: The unemployed. Push the state SPD into a more agressive tone and direction against the greens and left party.
+- @advice_negative_left: Push the state SPD into a more agressive tone and direction against the greens and left party.
 - @root: We either don't want to or cannot work with the state party right now.
 - @easy_discard
 
@@ -28,7 +28,7 @@ on-arrival: workers_spd += 6*(1-dissent); workers_spd -= 2 if unemployed >= 15; 
 We have increased our campaigning among the workers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract workers. ?]
 
 @give_funds
-subtitle: Our Allies at Wiessbaden are thankful for our gift. -1 resources. 
+subtitle: Our Allies at Wiessbaden are thankful for this gift. -1 resources. 
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 on-arrival: new_middle_spd += 6*(1-dissent); new_middle_spd -= 4 if socialism <= 49 and peoples_party == 0; resources -= 1; peoples_party_support += 1;

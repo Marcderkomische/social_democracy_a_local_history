@@ -332,6 +332,7 @@ Q.economic_records = [];
 
 // State of the government
 Q.president = "Horst Schneider";
+Q.president_party = '<span style="color: #ff0000 ;">spd</span>';
 // starting chancellor: 
 Q.chancellor = "Peter Schneider";
 Q.chancellor_party = '<span style="color: #50C878 ;">greens</span>';
