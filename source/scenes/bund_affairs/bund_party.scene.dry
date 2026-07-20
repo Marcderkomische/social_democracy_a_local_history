@@ -1,0 +1,60 @@
+title: working with Berlin
+new-page: true
+on-arrival: month_actions += 1
+max-visits: 36
+is-card: true
+card-image: img/flags.jpg
+frequency: 100
+tags: hessian_affairs
+
+= Working with the state party
+
+Whether we want it or not we have to work with (or help) our rather troubled colleagues for financing and campaigning. Perhaps we can also influence the Party to make benificial decisions for us...
+
+- @ask_funds: Ask for additional funds.
+- @give_funds: Give the state party additional reccources as a gesture of good will.
+- @frankfurt_spd: Arrange meetings with our friends at Frankfurt and coordinate with them on certain cross-city projects.
+- @advice_negative_right: Push the state SPD into a more agressive tone and direction against the CDU.
+- @advice_negative_left: The unemployed. Push the state SPD into a more agressive tone and direction against the greens and left party.
+- @root: We either don't want to or cannot work with the state party right now.
+- @easy_discard
+
+@ask_funds
+subtitle: +1 resources. Our recent electoral successes have conviced the state SPD.
+choose-if: resources >= 1
+unavailable-subtitle: Not enough resources.
+on-arrival: workers_spd += 6*(1-dissent); workers_spd -= 2 if unemployed >= 15; workers_spd -= 2 if unemployed >= 25; workers_spd += 6*(1-dissent) if wtb_adopted = 1; resources -= 1; workers_spd += 3*(1-dissent) if nationalization_progress >= 1;
+
+We have increased our campaigning among the workers. [? if unemployed >= 15: The high levels of unemployment make our campaign more difficult. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract workers. ?]
+
+@give_funds
+subtitle: Our Allies at Wiessbaden are thankful for our gift. -1 resources. 
+choose-if: resources >= 1
+unavailable-subtitle: Not enough resources.
+on-arrival: new_middle_spd += 6*(1-dissent); new_middle_spd -= 4 if socialism <= 49 and peoples_party == 0; resources -= 1; peoples_party_support += 1;
+
+We have increased our campaigning among the new middle class. [? if socialism <= 49 and peoples_party == 0: The popular antipathy towards socialism among this group makes our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
+
+@frankfurt_spd
+subtitle: -1 resources. This will make our cross-city work easier.
+choose-if: resources >= 1
+unavailable-subtitle: Not enough resources.
+on-arrival: old_middle_spd += 5*(1-dissent); resources -= 1; old_middle_spd -= 3 if nationalism >= 51 and peoples_party == 0; peoples_party_support += 1
+
+We have increased our campaigning among the old middle class. [? if nationalism >= 51 and peoples_party == 0: The high levels of nationalism among this group make our campaign more difficult. ?] [? if peoples_party > 0: As a people's party, we have an easier time increasing support among the middle class than before. ?]
+
+@advice_negative_right
+subtitle: -1 resources.
+choose-if: resources >= 10
+unavailable-subtitle: Our state party is currently in a Grand Coalition.
+on-arrival: rural_spd += 5*(1-dissent); rural_spd -= 3*(1-dissent) if peoples_party == 0; resources -= 1; peoples_party_support += 1; rural_spd += 3*(1-dissent) if rural_policy >= 2
+
+We have increased our campaigning among farmers. [? if peoples_party == 0: We have not historically campaigned much among the farmers, and they do not trust us. ?][? if peoples_party > 0: As a people's party, we have an easier time increasing support among farmers than before. ?][? if rural_policy >= 2 : Our rural policies have made it easier for us to build support among farmers. ?]
+
+@advice_negative_left
+subtitle: -1 resources. Our left-wing is rather unpleased.
+choose-if: resources >= 1
+unavailable-subtitle: Not enough resources.
+on-arrival: unemployed_spd += 6*(1-dissent); resources -= 1; unemployed_spd -= 3 if welfare < 0; unemployed_spd += 6*(1-dissent) if wtb_adopted = 1; unemployed_spd += 3*(1-dissent) if welfare >= 2;
+
+We have increased our campaigning among the unemployed. [? if welfare < 0: The welfare cuts and resultant poverty make our campaign more difficult, since we are associated with the government that enacted these cuts, and our campaign may even backfire. ?][? if wtb_adopted = 1 : Adopting the WTB plan gives us a new rallying point around which to attract support from the unemployed. ?]
